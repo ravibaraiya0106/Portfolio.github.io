@@ -1305,38 +1305,22 @@
     color: orange;
 }
 
-.codebutton {
-    color: white;
-    padding: 10px;
-    border: 1px solid orange;
-    border-radius: 50px;
-    width: 170px;
+.codebutton, .livebutton {
     background-color: black;
-    text-align: center;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.codebutton:hover {
-    background-color: orange;
-    color: black;
-}
-
-.livebutton {
+    border: 1px solid  orange;
+    padding: 10px 20px;
     color: orange;
-    padding: 10px;
-    border: 1px solid white;
+    text-decoration: none;
     border-radius: 50px;
     width: 170px;
-    background-color: black;
-    text-align: center;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.livebutton:hover {
-    background-color: white;
+.codebutton a, .livebutton a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.codebutton:hover, .livebutton:hover {
+    background-color: orange;
     color: black;
 }
