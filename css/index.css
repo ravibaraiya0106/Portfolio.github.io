@@ -1324,3 +1324,17 @@
     background-color: orange;
     color: black;
 }
+/* Center nav-items when collapsed */
+@media (max-width: 991.98px) {
+    #ftco-nav {
+        text-align: center;
+    }
+    #ftco-nav .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #ftco-nav .nav-item {
+        margin-bottom: 10px;
+    }
+}
